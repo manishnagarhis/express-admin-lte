@@ -1,0 +1,19 @@
+{
+  "name": "admin-lte-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "development": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "Manish",
+  "license": "ISC",
+  "dependencies": {
+    "@marvnet/express-dynamic-helpers-patch": "^1.0.3",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-ejs-layouts": "^2.5.1",
+    "nodemon": "^2.0.15"
+  }
+}
