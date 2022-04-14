@@ -21,7 +21,7 @@ app.dynamicHelpers({ prop: require(__dirname + '/views/helpers/prop') });
 //public folder
 app.use(express.static('public'));
 
-//Routes
+// All Routes
 app.use(mainRouter);
 app.use(adminRouter);
 
